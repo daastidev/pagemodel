@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>API PPOYECTO TOP TELECOM</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            table, th, td {
+              border:1px solid black;
+              background-color: rgb(131, 105, 93); 
+            }
+
+            .glow-on-hover {
+                width: 220px;
+                height: 50px;
+                border: none;
+                outline: none;
+                color: #fff;
+                background: rgb(13, 14, 13);
+                cursor: pointer;
+                position: relative;
+                z-index: 0;
+                border-radius: 10px;
+            }
+            .glow-on-hover:before {
+                content: '';
+                background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+                position: absolute;
+                top: -2px;
+                left:-2px;
+                background-size: 400%;
+                z-index: -1;
+                filter: blur(5px);
+                width: calc(100% + 4px);
+                height: calc(100% + 4px);
+                animation: glowing 20s linear infinite;
+                opacity: 0;
+                transition: opacity .3s ease-in-out;
+                border-radius: 10px;
+            }
+            
+            .glow-on-hover:active {
+                color: rgb(10, 10, 10)
+            }
+            
+            .glow-on-hover:active:after {
+                background: transparent;
+            }
+            
+            .glow-on-hover:hover:before {
+                opacity: 1;
+            }
+            
+            .glow-on-hover:after {
+                z-index: -1;
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background: #111;
+                left: 0;
+                top: 0;
+                border-radius: 10px;
+            }
+            
+            @keyframes glowing {
+                0% { background-position: 0 0; }
+                50% { background-position: 400% 0; }
+                100% { background-position: 0 0; }
+            }
+        </style>
+
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top">Api Top Empresas de Telecomunicaciones</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#about">Acerca del Proyecto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Top 10 Actual</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 h-100">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-8 align-self-end">
+                        <h1 class="text-white font-weight-bold">
+                            API de las mayores empresas de telecomunicaciones por capitalización de mercado del 2022</h1>
+                        <hr class="divider" />
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 mb-5">Proveer de métodos de consuta y publicación información establecida en la Base de datos de las grandes Compañías en el Mundo TOP 10</p>
+                        <a class="btn btn-primary btn-xl" href="#about">Descripción Proyecto</a>
+                        <a class="btn btn-primary btn-xl" href="#about">Autores</a>
+                        <a class="btn btn-primary btn-xl" href="https://companiesmarketcap.com/telecommunication/largest-telecommunication-companies-by-market-cap/">Otros Recursos</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="page-section bg-primary" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0">¡Así es como funciona!</h2>
+                        <hr class="divider divider-light" />
+                        <p class="text-white-75 mb-4">El API provee de API Methods: REST!</p>
+                        <p>Elaborado por los Estudiantes:
+                            <li>
+                                <ol>Darwin Avalos</ol>
+                                <ol>Andy Guanovhanga</ol>
+                            </li>
+                        </p>
+                        <table style="width:100%">
+                            <tr>
+                                <th>Método</th>
+                                <th>Descripción</th>
+                                <th>Cantidad</th>
+                            </tr>
+
+                            <tr>
+                                <td>GET</td>
+                                <td>Utilizado cuando se quiere acceder a algún objeto o información
+                                </td>
+                                <td>
+                                    >4
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>POST</td>
+                                <td>Utilizado para almacenar algún objeto o información.
+                                </td>
+                                <td>>2</td>
+                            </tr>
+
+                            <tr>
+                                <td>DELETE</td>
+                                <td>Utilizado para eliminar objetos o información.
+                                </td>
+                                <td>>2</td>
+                            </tr>
+                            
+
+                        </table>
+                        <br>
+                        <a class="btn btn-light btn-xl" href="http://127.0.0.1:5000/loadpage">Más detalles</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container px-4 px-lg-5">
+                <h2 class="text-center mt-0">Utilidad y Usos</h2>
+                <hr class="divider" />
+                <p>"La industria de las telecomunicaciones se está moviendo en dirección a una nueva era. Los avances tecnológicos como el mobile first, la conectividad total o el 5G marcarán este futuro.La competencia será cada vez más transformadora y las compañías deben de estar preparadas para diferenciarse."Telco@Media</p>
+
+                <hr class="divider" />
+                <ol>1.La revolución del consumidor. La necesidad de poner al consumidor en el centro de toda estrategia no es algo nuevo.</ol>
+                <ol>2.Oferta de una experiencia de consumidor omnicanal</ol>
+                <ol>
+                    3.Nuevos modelos de servicios, ofertas digitales y formas de venta.
+                </ol>
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Inversionistas</h3>
+                            <p class="text-muted mb-0">En busca destinar su inversión a empresas con un alto y sólido valor de mercado global!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Talentos Profesionales</h3>
+                            <p class="text-muted mb-0">Cualquier persona interesada en laborar en el sector de las telecomunicaciones con foco a empresas de élite mundial.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Investigadores o Desarrolladores</h3>
+                            <p class="text-muted mb-0">Posibilidad de ofrecer nuevas tecnologías que tengan capacidad de despliege e implementación!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-heart fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Fanáticos de Servicos Preamiun</h3>
+                            <p class="text-muted mb-0">Personas que desean estar en la vanguardia de las tecnologías, servicios y productos en su país</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio-->
+        <div id="portfolio">
+            <div class="container-fluid p-0">
+                <div class="row g-0">
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg" title="AT& T">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Telecomunicaciones</div>
+                                <div class="project-name">AT& T
+                                    <button class="btn btn-light btn-xl" href="http://127.0.0.1:5000/topcompanieposition/search/1">PosicionActual</button>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg" title="VERIZON">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Telecomunicaciones</div>
+                                <div class="project-name" ">VERIZON
+                            
+                               <button class="btn btn-light btn-xl" href="http://127.0.0.1:5000/topcompanieposition/search/2">PosicionActual</button>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg" title="DEUTSCHE TELEKOM">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Telecomunicaciones</div>
+                                <div class="project-name">DEUTSCHE TELEKOM
+                                    <button class="btn btn-light btn-xl" href="http://127.0.0.1:5000/topcompanieposition/search/3">PosicionActual</button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/4.jpg" title="COMCAST">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Telecomunicaciones</div>
+                                <div class="project-name">COMCAST
+                                    <button class="btn btn-light btn-xl" href="http://127.0.0.1:5000/topcompanieposition/search/4">PosicionActual</button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg" title="NIPPON TELEGRAPH & TELEPHONE">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Telecomunicaciones</div>
+                                <div class="project-name">NIPPON TELEGRAPH & TELEPHONE
+                                    <button class="btn btn-light btn-xl" href="http://127.0.0.1:5000/topcompanieposition/search/5">PosicionActual</button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg" title="CHINA MOBILE">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="..." />
+                            <div class="portfolio-box-caption p-3">
+                                <div class="project-category text-white-50">Telecomunicaciones</div>
+                                <div class="project-name">CHINA MOBILE
+                                    <button class="btn btn-light btn-xl" href="http://127.0.0.1:5000/topcompanieposition/search/6">PosicionActual</button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/7.jpg" title="CHINA TELECOM">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/7.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Telecomunicaciones</div>
+                                <div class="project-name">CHINA TELECOM
+                                    <button class="btn btn-light btn-xl" href="http://127.0.0.1:5000/topcompanieposition/search/7">PosicionActual</button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/8.jpg" title="VODAFONE">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/8.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Telecomunicaciones</div>
+                                <div class="project-name">VODAFONE
+                                    <button class="btn btn-light btn-xl" href="http://127.0.0.1:5000/topcompanieposition/search/8">PosicionActual</button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/9.jpg" title="ORANGE">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/9.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Telecomunicaciones</div>
+                                <div class="project-name">ORANGE
+                                    <button class="btn btn-light btn-xl" href="http://127.0.0.1:5000/topcompanieposition/search/9">PosicionActual</button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/10.jpg" title="TELEFONICA">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/10.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Telecomunicaciones</div>
+                                <div class="project-name">TELEFONICA
+                                    <button class="btn btn-light btn-xl" href="http://127.0.0.1:5000/topcompanieposition/search/10">PosicionActual</button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Call to action-->
+        <section class="page-section bg-dark text-white">
+            <div class="container px-4 px-lg-5 text-center">
+                <h2 class="mb-4">Métodos de Consulta!</h2>
+                <p>Para acceder a los métodos de consulta establecidos dentro de la arquitectura RESTfull del lado del servidor se garantiza el retorno de las peticiones GET & POST mediante botones Que realice redirecciona la maquetación URLs para dichas consultas</p>
+               
+                <br>
+                <button class="glow-on-hover">
+                    <a type="button" href="http://127.0.0.1:5000/toptelecomComp/0">GET Todo el Top 1!!</a>
+                </button>
+                <button class="glow-on-hover">
+                    <a type="button" href="http://127.0.0.1:5000/toptelecomComp/1">GET Todo el Top 2!!</a>
+                </button>
+
+                <button class="glow-on-hover">
+                    <a type="button" href="http://127.0.0.1:5000/toptelecomComp/2">GET Todo el Top 3!!</a>
+                </button>
+
+                <button class="glow-on-hover">
+                    <a type="button" href="http://127.0.0.1:5000/toptelecomComp/3">GET Todo el Top 4!!</a>
+                </button>
+
+                <button class="glow-on-hover">
+                    <a type="button" href="http://127.0.0.1:5000/toptelecomComp/4">GET Todo el Top 5!!</a>
+                </button>
+
+                <button class="glow-on-hover">
+                    <a type="button" href="http://127.0.0.1:5000/toptelecomComp/5">GET Todo el Top 6!!</a>
+                </button>
+
+
+                <button class="glow-on-hover">
+                    <a type="button" href="http://127.0.0.1:5000/toptelecomComp/6">GET Todo el Top 7!!</a>
+                </button>
+
+
+                <button class="glow-on-hover">
+                    <a type="button" href="http://127.0.0.1:5000/toptelecomComp/7">GET Todo el Top 8!!</a>
+                </button>
+
+                <button class="glow-on-hover">
+                    <a type="button" href="http://127.0.0.1:5000/toptelecomComp/8">GET Todo el Top 9!!</a>
+                </button>
+
+                <button class="glow-on-hover">
+                    <a type="button" href="http://127.0.0.1:5000/toptelecomComp/9">GET Todo el Top 10!!</a>
+                </button>
+                
+                <button class="glow-on-hover">
+                    <a type="button" href="http://127.0.0.1:5000/topcompanies/all">GET Todo el Catálogo Actual de la Db!!</a>
+                </button>
+
+                <button class="glow-on-hover">
+                    <a type="button" href="http://127.0.0.1:5000/topcompanieposition/search/2">Posicion Actual de VERIZON!!!</a>
+                </button>
+
+                <button class="glow-on-hover">
+                    <a type="button" href="http://127.0.0.1:5000/yearfundation/search/1983">Fundadas el mismo año 1983!!</a>
+                </button>
+
+                <button class="glow-on-hover">
+                    <a type="button" href="http://127.0.0.1:5000/toptelecomComp/newentryone">Realizando primer POST!!</a>
+                </button>
+
+                <button class="glow-on-hover">
+                    <a type="button" href="http://127.0.0.1:5000/toptelecomComp/newentrytwo">Realizando segundo POST!!</a>
+                </button>
+
+                
+            </div>
+        </section>
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 col-xl-6 text-center">
+                        <h2 class="mt-0">Dudas o Consultas</h2>
+                        <hr class="divider" />
+                        <p class="text-muted mb-5">Para más información o sugerencias llenar el formulario de adebajo!</p>
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                    <div class="col-lg-6">
+                        
+                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                           
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Ingresar el nombre.." data-sb-validations="required" />
+                                <label for="name">Nombre completo</label>
+                                <div class="invalid-feedback" data-sb-feedback="name:required">Se requiere del nombre.</div>
+                            </div>
+                          
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" type="email" placeholder=" ejmp:name@example.com" data-sb-validations="required,email" />
+                                <label for="email">Dirección de correo electrónico</label>
+                                <div class="invalid-feedback" data-sb-feedback="email:required">Es necesario de una dirección de email válida</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email Inválido</div>
+                            </div>
+                            
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="phone" type="tel" placeholder="ejmp:(123) 456-7890" data-sb-validations="required" />
+                                <label for="phone">Número de contacto</label>
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">Es necesario un número de teléfono</div>
+                            </div>
+                            
+                            <!-- Message input-->
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" type="text" placeholder="Ingresar el mensaje dentro de este apartado" style="height: 10rem" data-sb-validations="required"></textarea>
+                                <label for="message">Mensaje</label>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">Es necesario hacernos saber tu inquietud o duda con un mensaje</div>
+                            </div>
+                            
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3">
+                                    <div class="fw-bolder">Formularioenviado correctamente!</div>
+                                   
+                                    <br />
+                                    
+                                </div>
+                            </div>
+                            
+                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                           
+                            <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Enviar mensaje</button></div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-4 text-center mb-5 mb-lg-0">
+                        <i class="bi-phone fs-2 mb-3 text-muted"></i>
+                        <div>+593 0987077708</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="bg-light py-5">
+            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2022 Proyecto Final Arquitecturas de Sistemas Telemáticos - BootStrap & Universidad Politécnica Salesiana</div></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>

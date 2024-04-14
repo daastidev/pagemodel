@@ -1,0 +1,112 @@
+{
+    "id":0,
+    "Sector_Compania":"Comunicaciones fijas, opticas, móviles e inalámbricas",
+    "Nombre_Compania":"AT& T",        
+    "Cifra_de_Negocio":"$168.9 billion",
+    "Año_Fundación":"1983",
+    "Sede":"Dallas, Texas, USA",
+    "TelecomServices_Paises":" EE.UU. y varios países de América Latina y el Caribe",
+    "Marcas_SubmarcasOwnwer":"AT&T (marca principal), Cricket Wireless",
+    "Posicion_Actual":"1"              
+},
+
+{
+    "id":1,
+    "Sector_Compania":"Comunicaciones fijas, opticas, móviles e inalámbricas",
+    "Nombre_Compania":"VERIZON",        
+    "Cifra_de_Negocio":"$133.6 billion",
+    "Año_Fundación":"1983",
+    "Sede":"Nueva York, Nueva York, EE.UU.",
+    "TelecomServices_Paises":" EE.UU.",
+    "Marcas_SubmarcasOwnwer":" Verizon (marca principal), Visible",
+    "Posicion_Actual":"2"              
+},
+{
+    "id":2,
+    "Sector_Compania":"Comunicaciones fijas, opticas, móviles e inalámbricas",
+    "Nombre_Compania":"DEUTSCHE TELEKOM",        
+    "Cifra_de_Negocio":"$122.8 billion",
+    "Año_Fundación":"1995",
+    "Sede":"Bonn, Renania del Norte-Westfalia, Alemania",
+    "TelecomServices_Paises":" Alemania, Polonia, Hungría, Países Bajos, Austria, República Checa, Eslovaquia, Croacia, Rumania, Grecia, Macedonia del Norte y EE. UU.",
+    "Marcas_SubmarcasOwnwer":"Telekom (marca principal) , T-Mobile, T-Systems, OTE, Red Europea de Aviación",
+    "Posicion_Actual":"3"              
+},
+   {
+    "id":3,
+    "Sector_Compania":"Comunicaciones fijas, opticas, móviles e inalámbricas",
+    "Nombre_Compania":"COMCAST",        
+    "Cifra_de_Negocio":"$116.4 billion",
+    "Año_Fundación":"1963",
+    "Sede":"Filadelfia, Pensilvania, EE.UU",
+    "TelecomServices_Paises":" EE.UU.",
+    "Marcas_SubmarcasOwnwer":"Xfinity (marca principal), Xumo, Comcast Business",
+    "Posicion_Actual":"4"             
+},
+   {
+    "id":4,
+    "Sector_Compania":"Comunicaciones fijas, opticas, móviles e inalámbricas",
+    "Nombre_Compania":"NIPPON TELEGRAPH & TELEPHONE",        
+    "Cifra_de_Negocio":"$113.5 billion",
+    "Año_Fundación":"1985",
+    "Sede":"Tokio, Japón",
+    "TelecomServices_Paises":"Japón",
+    "Marcas_SubmarcasOwnwer":" NTT (marca principal), NTT Docomo",
+    "Posicion_Actual":"5"              
+},
+   {
+    "id":5,
+    "Sector_Compania":"Comunicaciones fijas, opticas, móviles e inalámbricas",
+    "Nombre_Compania":"CHINA MOBILE",        
+    "Cifra_de_Negocio":"$109.2 billion",
+    "Año_Fundación":"1997",
+    "Sede":"Beijing, China",
+    "TelecomServices_Paises":" China, Japón, Pakistán, Tailandia, Singapur, Canadá y Reino Unido",
+    "Marcas_SubmarcasOwnwer":" China Mobile (marca principal), Zong 4G, CMLink",
+    "Posicion_Actual":"6"              
+},
+   {
+    "id":6,
+    "Sector_Compania":"Comunicaciones fijas, opticas, móviles e inalámbricas",
+    "Nombre_Compania":"CHINA TELECOM",        
+    "Cifra_de_Negocio":"$54.4 billion",
+    "Año_Fundación":"1995",
+    "Sede":"Beijing, China",
+    "TelecomServices_Paises":" China y Filipinas",
+    "Marcas_SubmarcasOwnwer":"China Telecom (marca principal), DITO (participación del 40%)",
+    "Posicion_Actual":"7"              
+},
+   {
+    "id":7,
+    "Sector_Compania":"Comunicaciones fijas, opticas, móviles e inalámbricas",
+    "Nombre_Compania":"VODAFONE",        
+    "Cifra_de_Negocio":"$53.2 billion",
+    "Año_Fundación":"1991",
+    "Sede":"Newbury, Inglaterra, Reino Unido",
+    "TelecomServices_Paises":" Reino Unido, la mayoría de los países de la Unión Europea, algunos otros países de Europa, India, Medio Oriente, Sudeste Asiático y varios países de África",
+    "Marcas_SubmarcasOwnwer":"Vodafone (marca principal), Vodacom, Mobitel, UPC, Unitymedia",
+    "Posicion_Actual":"8"              
+},
+
+   {
+    "id":8,
+    "Sector_Compania":"Comunicaciones fijas, opticas, móviles e inalámbricas",
+    "Nombre_Compania":"ORANGE",        
+    "Cifra_de_Negocio":"$50.0 billion",
+    "Año_Fundación":"1988",
+    "Sede":"París, Ile-de-France, Francia",
+    "TelecomServices_Paises":" Francia, España, Polonia, Bélgica, Eslovaquia, Rumania, Moldavia y varios países de África",
+    "Marcas_SubmarcasOwnwer":"Orange (marca principal), Sonatel, Jazztel",
+    "Posicion_Actual":"9"                   
+},
+   {
+    "id":9,
+    "Sector_Compania":"Comunicaciones fijas, opticas, móviles e inalámbricas",
+    "Nombre_Compania":"TELEFONICA",        
+    "Cifra_de_Negocio":"$46.500 million",
+    "Año_Fundación":"1983",
+    "Sede":"Madrid, Comunidad de Madrid, España",
+    "TelecomServices_Paises":" España, Alemania, Reino Unido y la mayoría de los países de América",
+    "Marcas_SubmarcasOwnwer":"Movistar (marca principal), O2, Virgin Media O2, Vivo",
+    "Posicion_Actual":"10"           
+}   
